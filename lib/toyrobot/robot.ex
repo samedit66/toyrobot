@@ -14,5 +14,6 @@ defmodule ToyRobot.Robot do
     %{position: 3}
   """
   def move(robot) do
+    %{position: robot.position + 1}
   end
 end
